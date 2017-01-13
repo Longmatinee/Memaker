@@ -21,6 +21,13 @@
         android:layout_centerHorizontal="true"
         android:hint="Write your text here" />
 
+    <ImageView
+        android:id="@+id/imgView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" >
+    </ImageView>
+
     <Button
         android:text="Add Your Image"
         android:layout_width="wrap_content"
@@ -29,7 +36,8 @@
         android:id="@+id/buttonAddImage"
         android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:onClick="addImage" />
 
     <Button
         android:layout_width="wrap_content"
